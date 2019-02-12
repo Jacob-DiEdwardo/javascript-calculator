@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>JavaScript Calculator</title>
+  </head>
+
+  <body>
+    <h1>CALCULATOR</h1>
+    <h3>by Jacob DiEdwardo</h3>
+    <br>
+    <div id="calculator-shape">
+      <input type="text" name="display" id="display" value="0" disabled>
+      <div>
+        <button id="one-button" onclick="numFunc(1)">1</button>
+        <button id="two-button" onclick="numFunc(2)">2</button>
+        <button id="three-button" onclick="numFunc(3)">3</button>
+        <button id="plus-button" onclick="operatorFunc(plus)">+</button>
+      </div>
+      <div>
+        <button id="four-button" onclick="numFunc(4)">4</button>
+        <button id="five-button" onclick="numFunc(5)">5</button>
+        <button id="six-button" onclick="numFunc(6)">6</button>
+        <button id="minus-button" onclick="operatorFunc(minus)">-</button>
+      </div>
+      <div>
+        <button id="seven-button" onclick="numFunc(7)">7</button>
+        <button id="eight-button" onclick="numFunc(8)">8</button>
+        <button id="nine-button" onclick="numFunc(9)">9</button>
+        <button id="multiply-button" onclick="operatorFunc(multiply)">x</button>
+      </div>
+      <div>
+        <button id="clear-button" onclick="clearFunc()">c</button>
+        <button id="zero-button" onclick="numFunc(0)">0</button>
+        <button id="equals-button" onclick="equalsFunc()">=</button>
+        <button id="divide-button" onclick="operatorFunc(divide)">/</button>
+      </div>
+    </div>
+  
+  <script src="script.js"></script>
+  </body>
+
+</html>
+

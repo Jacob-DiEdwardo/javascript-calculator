@@ -1,0 +1,31 @@
+#calculator-shape {
+  height: 334px;
+  width: 372px;
+  border: 1px solid black; 
+  padding: 10px;
+  background-color: rgb(28, 204, 204);
+  border-radius: 10px;
+}
+
+#display {
+  border: 1px solid black; 
+  width: 365px; 
+  height: 50px; 
+  margin-bottom: 10px;
+  font-size: 3em;
+}
+
+button {
+  width: 85px;
+  height: 60px;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}

@@ -1,2 +1,1 @@
-# javascript-calculator
-A calculator powered by JavaScript
+This is my first JavaScript project!
